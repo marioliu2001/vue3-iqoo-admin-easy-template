@@ -1,5 +1,20 @@
 # 变更日志
 
+## [0.0.3-alpha.1](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.3-alpha.0...0.0.3-alpha.1) (2024-04-15)
+
+
+### ✨ Features | 新功能
+
+* **布局:** 实现vertical布局,菜单和菜单动画 ([925914f](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/925914fbb9c53ddf4ae4f05624b0804877aa9ac9))
+* **组件:** 新增Logo组件，setting.js全局变量，测试页面 ([e729314](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/e729314c28c21a5546e6e14914256d2abe4ed0ae))
+* **BreadCrumb:** 实现BreadCrumb 面包屑 ([ffe7ed3](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/ffe7ed3b6d891656ed717de33c5aab37357b65b4))
+* **Collapse:** 实现Collapse ([f6290fb](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/f6290fb630c051f6650378a1eb1733ba6638b171))
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **动画:** 安装动画依赖 ([1d1e4e4](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/1d1e4e4ebef601d63fd5cc79983a47fa45664cc6))
+
 ## [0.0.3-alpha.0](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.2...0.0.3-alpha.0) (2024-04-15)
 
 
