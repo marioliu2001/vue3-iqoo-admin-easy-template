@@ -39,4 +39,9 @@
 
 - 安装 animate.css
 
+- 安装 animate.css 并配置
+- 实现vertical布局
+- 实现静态菜单渲染
+- 实现菜单动画
+
 ### 计划实现

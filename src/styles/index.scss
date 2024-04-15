@@ -1,7 +1,8 @@
 // 组织统一导出
-@use 'normalize.css';
-@use 'transition.scss';
-@use 'nprogress.scss';
+@use 'normalize.css'; // 引入重置样式
+@use "animate.css"; // 引入animate
+@use 'transition.scss'; // 引入自定义动画
+@use 'nprogress.scss'; // 引入路由进度条
 //@use "variable.scss"; 已经在vite.config.js中配置
 
 //这个指令会导入Tailwind的基础样式，这些样式包括一些全局样式（如 normalize.css 或重置样式），以及为常见元素设置的默认样式（如 h1, p, a 等）
