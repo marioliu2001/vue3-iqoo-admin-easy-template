@@ -2,6 +2,7 @@
 import { ref, computed } from 'vue';
 import settings from '@/config/settings.js';
 import Logo from '../components/Logo/index.vue';
+import Header from '../components/Header/index.vue';
 import AsideSubMenu from '../components/Menu/AsideSubMenu.vue';
 import useGlobalStore from '@/stores/modules/global.js';
 import { staticRouter } from '@/routers/modules/staticRouter.js';
@@ -48,7 +49,7 @@ const menuHoverCollapse = ref(settings.asideMenuHoverCollapse);
     </el-aside>
     <el-container>
       <el-header class="layout-header">
-        <!--<Header />-->
+        <Header />
       </el-header>
       <el-main class="layout-main">
         <!--<Main />-->
