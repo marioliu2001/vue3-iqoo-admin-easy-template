@@ -29,7 +29,7 @@ module.exports = {
       // 指定生成的变更日志文件名
       infile: 'CHANGELOG.md',
       // 是否忽略推荐的版本提升
-      ignoreRecommendedBump: false,
+      ignoreRecommendedBump: true,
       // 是否强制使用严格的语义化版本
       strictSemVer: true
     }

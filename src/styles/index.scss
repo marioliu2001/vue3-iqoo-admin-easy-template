@@ -1,0 +1,12 @@
+// 组织统一导出
+@use 'normalize.css';
+@use 'transition.scss';
+@use 'nprogress.scss';
+//@use "variable.scss"; 已经在vite.config.js中配置
+
+//这个指令会导入Tailwind的基础样式，这些样式包括一些全局样式（如 normalize.css 或重置样式），以及为常见元素设置的默认样式（如 h1, p, a 等）
+//@tailwind base;
+// 这条指令用来引入Tailwind定义的组件类。这些是一组预先设计的UI构建块，你可以在HTML中直接使用这些类来构建用户界面，例如按钮、表单等
+//@tailwind components;
+// 这个指令会导入Tailwind的工具类，这些工具类是Tailwind的核心，让你能够快速地在HTML元素上应用样式，如 text-center, mt-4, bg-red-500 等
+@tailwind utilities; // 目前先使用这个
