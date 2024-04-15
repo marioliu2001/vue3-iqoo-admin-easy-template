@@ -1,9 +1,8 @@
 <script setup></script>
 
 <template>
-  <!--<el-config-provider>-->
+  <h1>布局页面</h1>
   <router-view />
-  <!--</el-config-provider>-->
 </template>
 
 <style scoped></style>

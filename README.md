@@ -3,6 +3,11 @@
 ## 极简后台管理系统
 
 ### 预览地址：
+[github pages](https://marioliu2001.github.io/vue3-iqoo-admin-easy-template)
+
+[cloudflare pages 1](https://vue3-iqoo-admin-easy-template.mario167.onflashdrive.app)
+
+[cloudflare pages 2](https://vue3-iqoo-admin-easy-template.pages.dev)
 
 ### 已实现(详细)
 
@@ -22,5 +27,10 @@
 - storage 封装
 - 封装常用Elment-Plus消息提示组件(iq.js)
 - 安装pinia和持久化插件并引入(下次commit会配置一下)
+
+- 配置global.js pinia仓库
+- 安装vue-router并简单配置
+- 安装 nprogress 进度条
+- 配置好了静态路由，接下来是实现layout布局
 
 ### 计划实现
