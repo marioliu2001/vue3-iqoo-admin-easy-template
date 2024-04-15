@@ -36,3 +36,12 @@ export const getDayText = () => {
   if (hours >= 0 && hours < 6) return '深夜好🌜，记得要给自己足够的休息。';
   return '你好呀！'; // 默认问候语
 };
+
+/**
+ * @description 获取assets静态资源
+ * @param url
+ * @returns
+ */
+export const getAssets = (url) => {
+  return new URL(`../assets/${url}`, import.meta.url).href;
+};
