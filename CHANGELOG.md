@@ -1,5 +1,12 @@
 # 变更日志
 
+## [0.0.2](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.2-alpha.1...0.0.2) (2024-04-15)
+
+
+### ✨ Features | 新功能
+
+* **组件:** 增加UI组件和封装一些工具 ([39c7e1b](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/39c7e1b5f03cff382da5c6fbef3a9972b636f160))
+
 ## [0.0.2-alpha.1](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.2-alpha.0...0.0.2-alpha.1) (2024-04-15)
 
 
