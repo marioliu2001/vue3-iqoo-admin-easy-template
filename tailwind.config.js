@@ -5,7 +5,11 @@ export default {
     './src/**/*.{js,ts,jsx,tsx,vue}' // 这里记得加上vue，官网直接拷贝过来是没有的
   ],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        customColor: '#E5E3FA'
+      }
+    }
   },
   plugins: []
 };

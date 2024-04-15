@@ -28,12 +28,17 @@ const titleAnimate = ref(settings.logoTitleAnimate); // 标题动画
 
 const logoWidth = ref(); // logo宽度
 
+console.log(props.layout);
+console.log(props.layout);
+
 watch(
   () => globalStore.layout,
   () => {
     if (globalStore.layout === 'classic' || globalStore.layout === 'horizontal') {
+      console.log('220px');
       logoWidth.value = '220px';
     } else {
+      console.log('100%');
       logoWidth.value = '100%';
     }
   },

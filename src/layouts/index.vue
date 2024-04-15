@@ -1,8 +1,9 @@
-<script setup></script>
+<script setup>
+import LayoutVertical from './LayoutVertical/index.vue';
+</script>
 
 <template>
-  <h1>布局页面</h1>
-  <router-view />
+  <LayoutVertical />
 </template>
 
 <style scoped></style>
