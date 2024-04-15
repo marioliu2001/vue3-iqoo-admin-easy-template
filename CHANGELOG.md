@@ -1,5 +1,12 @@
 # 变更日志
 
+## [0.0.3-alpha.0](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.2...0.0.3-alpha.0) (2024-04-15)
+
+
+### ✨ Features | 新功能
+
+* **pinia:** 配置global.js pinia仓库 ([11869d6](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/11869d678010ad37ba96d5d293bf620d944f74d1))
+
 ## [0.0.2](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.2-alpha.1...0.0.2) (2024-04-15)
 
 
