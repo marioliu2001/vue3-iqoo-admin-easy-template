@@ -28,9 +28,6 @@ const titleAnimate = ref(settings.logoTitleAnimate); // 标题动画
 
 const logoWidth = ref(); // logo宽度
 
-console.log(props.layout);
-console.log(props.layout);
-
 watch(
   () => globalStore.layout,
   () => {
@@ -56,6 +53,12 @@ watch(
       :src="logoUrl"
       alt="avatar"
       v-if="props.layout === 'vertical' || props.layout === 'mobile'"
+    />
+    <img
+      class="ml-[3px] mr-[12px] iqLogoImg rounded-full select-none"
+      :src="logoUrl"
+      alt="avatar"
+      v-if="props.layout === 'classic'"
     />
     <span
       class="iqTitle font-bold max-w-[140px] truncate"
