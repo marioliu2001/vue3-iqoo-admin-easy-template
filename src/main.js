@@ -1,5 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
+import components from '@/components';
 
 // 引入路由
 import router from './routers';
@@ -24,6 +25,8 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 app.use(router);
 // 注册pinia
 app.use(pinia);
+// 注册自定义组件
+app.use(components);
 
 // 挂载
 app.mount('#app');
