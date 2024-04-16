@@ -3,6 +3,7 @@ import { ref, onBeforeUnmount, onMounted } from 'vue';
 import { useDebounceFn } from '@vueuse/core';
 import Collapse from './components/Collapse.vue';
 import BreadCrumb from './components/BreadCrumb.vue';
+import SearchMenu from './components/SearchMenu.vue';
 
 /** 监听窗口大小变化，进行是否显示 */
 const showTool = ref(true); // 是否显示
@@ -35,6 +36,10 @@ onBeforeUnmount(() => {
       <Collapse />
       <!-- 面包屑 -->
       <BreadCrumb v-if="showTool" />
+    </div>
+    <div class="header-right">
+      <!-- 搜索菜单 -->
+      <SearchMenu v-if="showTool" />
     </div>
   </div>
 </template>

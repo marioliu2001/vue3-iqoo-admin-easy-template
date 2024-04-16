@@ -61,7 +61,7 @@ const authStore = defineStore('auth', {
     showMenuList: (state) => state.recursiveMenuList,
     // 递归处理后的所有面包屑导航列表
     // getBreadcrumbList: (state) => getAllBreadcrumbList(state.recursiveMenuList)
-    getBreadcrumbList: (state) => getAllBreadcrumbList(staticRouter)
+    getBreadcrumbList: () => getAllBreadcrumbList(staticRouter)
   }
 });
 
