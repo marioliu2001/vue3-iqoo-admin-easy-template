@@ -1,5 +1,13 @@
 # 变更日志
 
+## [0.0.3-alpha.2](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.3-alpha.1...0.0.3-alpha.2) (2024-04-16)
+
+
+### ✨ Features | 新功能
+
+* **三个组件:** 实现暗黑，全屏，User组件 ([11c87d1](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/11c87d14b782c6b3f49c0e3b3fe867b76260f8c0))
+* **Search:** 实现Search组件 ([35d801b](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/35d801ba4a00f9babc2350858374b6013fdf7445))
+
 ## [0.0.3-alpha.1](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.3-alpha.0...0.0.3-alpha.1) (2024-04-15)
 
 
