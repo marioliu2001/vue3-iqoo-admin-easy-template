@@ -60,6 +60,12 @@ watch(
       alt="avatar"
       v-if="props.layout === 'classic'"
     />
+    <img
+      class="ml-[6px] mr-[12px] iqLogoImg rounded-full select-none"
+      :src="logoUrl"
+      alt="avatar"
+      v-if="props.layout === 'columns'"
+    />
     <span
       class="iqTitle font-bold max-w-[140px] truncate"
       :class="titleAnimate"
