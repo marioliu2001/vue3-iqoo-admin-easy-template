@@ -7,6 +7,8 @@ import router from './routers';
 import pinia from '@/stores/index.js';
 // 引入ElementPlus所有图标
 import * as ElementPlusIconsVue from '@element-plus/icons-vue';
+// 引入ElementPlus的暗黑模式css
+import 'element-plus/theme-chalk/dark/css-vars.css';
 
 // 导入全局样式
 import './styles/index.scss';

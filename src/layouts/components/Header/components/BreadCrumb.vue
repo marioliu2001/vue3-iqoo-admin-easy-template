@@ -1,5 +1,4 @@
 <script setup>
-// import { ArrowRight } from '@element-plus/icons-vue';
 import { computed } from 'vue';
 import { HOME_URL } from '@/config/index.js';
 import { useRoute, useRouter } from 'vue-router';

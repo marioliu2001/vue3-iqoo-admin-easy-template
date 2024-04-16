@@ -48,8 +48,7 @@ const handleMenuIsLink = (value) => {
   height: $aside-menu-height !important;
   margin-bottom: $aside-menu-margin-bottom;
   font-weight: $aside-menu-font-weight;
-
-  //color: #000000;
+  color: #000000;
 
   /* 设置用户禁止选中 */
   user-select: none;
@@ -57,7 +56,7 @@ const handleMenuIsLink = (value) => {
   border-radius: $aside-menu-border-left;
 
   //@apply dark:c-#E5E3FA;
-  @apply dark:bg-customColor;
+  @apply dark:text-[#E5E3FA];
   i {
     transform: translate($aside-menu-font-icon-translate); // 图标偏移
   }
@@ -93,8 +92,7 @@ const handleMenuIsLink = (value) => {
   padding-right: 0; // 去除collapse缩小多余的边框
   margin-bottom: $aside-menu-margin-bottom;
   font-weight: $aside-menu-font-weight;
-
-  //color: #000000;
+  color: #000000;
 
   /* 设置用户禁止选中 */
   user-select: none;
@@ -102,7 +100,7 @@ const handleMenuIsLink = (value) => {
   border-radius: $aside-menu-border-left;
 
   //@apply dark:c-#E5E3FA;
-  @apply dark:bg-customColor;
+  @apply dark:text-[#E5E3FA];
   i {
     transform: translate($aside-menu-font-icon-translate); // 图标偏移
   }

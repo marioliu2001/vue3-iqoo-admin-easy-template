@@ -1,6 +1,7 @@
 <script setup>
 import { ref, computed } from 'vue';
 import settings from '@/config/settings.js';
+import Main from '../components/Main/index.vue';
 import Logo from '../components/Logo/index.vue';
 import Header from '../components/Header/index.vue';
 import AsideSubMenu from '../components/Menu/AsideSubMenu.vue';
@@ -52,8 +53,7 @@ const menuHoverCollapse = ref(settings.asideMenuHoverCollapse);
         <Header />
       </el-header>
       <el-main class="layout-main">
-        <!--<Main />-->
-        <router-view />
+        <Main />
       </el-main>
     </el-container>
   </el-container>

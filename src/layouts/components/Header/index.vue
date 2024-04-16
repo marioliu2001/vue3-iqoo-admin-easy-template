@@ -4,6 +4,9 @@ import { useDebounceFn } from '@vueuse/core';
 import Collapse from './components/Collapse.vue';
 import BreadCrumb from './components/BreadCrumb.vue';
 import SearchMenu from './components/SearchMenu.vue';
+import Dark from './components/Dark.vue';
+import FullScreen from './components/FullScreen.vue';
+import User from './components/User.vue';
 
 /** 监听窗口大小变化，进行是否显示 */
 const showTool = ref(true); // 是否显示
@@ -40,6 +43,12 @@ onBeforeUnmount(() => {
     <div class="header-right">
       <!-- 搜索菜单 -->
       <SearchMenu v-if="showTool" />
+      <!-- 明亮/暗黑模式图标 -->
+      <Dark />
+      <!-- 全屏图标 -->
+      <FullScreen />
+      <!-- 头像 AND 下拉折叠 -->
+      <User />
     </div>
   </div>
 </template>
