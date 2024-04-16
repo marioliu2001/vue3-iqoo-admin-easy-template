@@ -1,5 +1,12 @@
 # 变更日志
 
+## [0.0.3-alpha.3](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.3-alpha.2...0.0.3-alpha.3) (2024-04-16)
+
+
+### ✨ Features | 新功能
+
+* **IqDialog组件:** 封装IqDialog组件 ([eeeec4e](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/eeeec4e5f77e6e897935aa61b7ed4c94e7aa7995))
+
 ## [0.0.3-alpha.2](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.3-alpha.1...0.0.3-alpha.2) (2024-04-16)
 
 
