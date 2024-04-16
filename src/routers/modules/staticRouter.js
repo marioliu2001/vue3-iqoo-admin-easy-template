@@ -121,7 +121,7 @@ export const staticRouter = [
     component: Layout, // 一级路由，可以将子路由放置Main模块中
     redirect: '/test/Father', // path路径，<router-link name="/404"> 也是使用path进行跳转
     meta: {
-      title: '测试组件', // 标题
+      title: '测试', // 标题
       icon: 'Tools', // 图标
       isHide: '1', // 代表路由在菜单中是否隐藏，是否隐藏[0隐藏，1显示]
       isLink: '', // 是否外链[有值则是外链]
@@ -150,6 +150,20 @@ export const staticRouter = [
         component: () => import('@/views/test/Children.vue'),
         meta: {
           title: '子组件', // 标题
+          icon: 'UserFilled', // 图标
+          isHide: '1', // 代表路由在菜单中是否隐藏，是否隐藏[0隐藏，1显示]
+          isLink: '', // 是否外链[有值则是外链]
+          isKeepAlive: '0', // 是否缓存路由数据[0是，1否]
+          isFull: '1', // 是否缓存全屏[0是，1否]
+          isAffix: '1' // 是否缓存固定路由[0是，1否]
+        }
+      },
+      {
+        path: '/test/IqComponents', // [唯一]
+        name: 'IqComponents',
+        component: () => import('@/views/test/IqComponents.vue'),
+        meta: {
+          title: '封装组件', // 标题
           icon: 'UserFilled', // 图标
           isHide: '1', // 代表路由在菜单中是否隐藏，是否隐藏[0隐藏，1显示]
           isLink: '', // 是否外链[有值则是外链]
