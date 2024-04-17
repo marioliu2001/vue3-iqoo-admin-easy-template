@@ -1,5 +1,17 @@
 # 变更日志
 
+## [0.0.3-alpha.5](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.3-alpha.4...0.0.3-alpha.5) (2024-04-17)
+
+
+### ✨ Features | 新功能
+
+* **尺寸配置:** 实现Element-Plus的尺寸配置 ([e5e2227](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/e5e2227017776f488dbff250a50083af9b3a5ba9))
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **暗黑修复:** 修复MobileDrawer在暗黑下不是黑色 ([198b023](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/198b02303ee2ff051c381a48ff80c16398bb7bcd))
+
 ## [0.0.3-alpha.4](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.3-alpha.3...0.0.3-alpha.4) (2024-04-17)
 
 
