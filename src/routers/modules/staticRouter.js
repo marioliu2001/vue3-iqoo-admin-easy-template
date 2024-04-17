@@ -171,6 +171,21 @@ export const staticRouter = [
           isFull: '1', // 是否缓存全屏[0是，1否]
           isAffix: '1' // 是否缓存固定路由[0是，1否]
         }
+      },
+      /** dashboard页面 */
+      {
+        path: '/test/dashboard', // [唯一]
+        name: 'Dashboard',
+        component: () => import('@/views/dashboard/index.vue'),
+        meta: {
+          title: '控制台', // 标题
+          icon: 'HomeFilled', // 图标 HomeFilled
+          isHide: '1', // 代表路由在菜单中是否隐藏，是否隐藏[0隐藏，1显示]
+          isLink: '', // 是否外链[有值则是外链]
+          isKeepAlive: '0', // 是否缓存路由数据[0是，1否]
+          isFull: '1', // 是否缓存全屏[0是，1否]
+          isAffix: '1' // 是否缓存固定路由[0是，1否]
+        }
       }
       // {
       //   path: '/test/link', // [唯一]

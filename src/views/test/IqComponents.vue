@@ -32,8 +32,8 @@ const confirmLoading = ref(false);
 </script>
 
 <template>
-  <!-- 其他内容 -->
   <div>
+    <!-- 其他内容 -->
     <el-button type="primary" @click="openDialog">打开弹窗</el-button>
     <!-- 使用封装的Dialog组件 -->
     <IqDialog
