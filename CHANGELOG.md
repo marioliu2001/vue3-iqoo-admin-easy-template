@@ -1,5 +1,19 @@
 # 变更日志
 
+## [0.0.3-alpha.4](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.3-alpha.3...0.0.3-alpha.4) (2024-04-17)
+
+
+### ✨ Features | 新功能
+
+* **开屏动画:** 开屏动画 ([69984f4](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/69984f4156790497ad7f370d0c0d4b4b743d6ef8))
+* **实现布局切换:** 实现动态切换布局 ([5f44706](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/5f447067305de271886e1573cf884d820167a333))
+* **响应式移动端:** 实现响应式移动端，然后将菜单变为Drawer ([cea802c](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/cea802c79d9c4bb979f91a8f50eb9631192cb53d))
+* **主题弹框&mitt:** 实现主题弹框组件,mitt事件总线 ([daa5119](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/daa511901c584e100f4abb59fd8bba8853188b37))
+* **主页:** 主页的简单实现 ([e9b1c10](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/e9b1c10f9d5369d0620bf5a29568eaba7ff0ba64))
+* **classic经典主题:** 测试classic经典主题成功 ([e65bf64](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/e65bf647681806ca02b158ef645bd740ed6aaff2))
+* **columns分栏:** 测试columns分栏成功 ([137dd4c](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/137dd4c9ac8ea4ea83eee8fc9b179c7f6a1522b9))
+* **horizontal横向:** 测试horizontal横向布局成功 ([42086ff](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/commit/42086ff7265990cd1cf5cd8cbfb7cab28f747484))
+
 ## [0.0.3-alpha.3](https://github.com/marioliu2001/vue3-iqoo-admin-easy-template/compare/0.0.3-alpha.2...0.0.3-alpha.3) (2024-04-16)
 
 
