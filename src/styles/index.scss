@@ -1,6 +1,6 @@
 // 组织统一导出
 @use 'normalize.css'; // 引入重置样式
-@use "animate.css"; // 引入animate
+@use 'animate.css'; // 引入animate
 @use 'transition.scss'; // 引入自定义动画
 @use 'nprogress.scss'; // 引入路由进度条
 //@use "variable.scss"; 已经在vite.config.js中配置

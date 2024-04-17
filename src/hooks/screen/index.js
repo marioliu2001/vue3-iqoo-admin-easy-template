@@ -1,5 +1,5 @@
-import { reactive } from "vue";
-import { useBreakpoints } from "@vueuse/core";
+import { reactive } from 'vue';
+import { useBreakpoints } from '@vueuse/core';
 
 export const breakpointsEnum = {
   xl: 1600,
@@ -12,11 +12,11 @@ export const breakpointsEnum = {
 export const useScreenStore = () => {
   const breakpoints = reactive(useBreakpoints(breakpointsEnum));
   // 手机端
-  const isMobile = breakpoints.smaller("sm");
+  const isMobile = breakpoints.smaller('sm');
   // pad端
-  const isPad = breakpoints.between("sm", "md");
+  const isPad = breakpoints.between('sm', 'md');
   // pc端
-  const isDesktop = breakpoints.greater("md");
+  const isDesktop = breakpoints.greater('md');
   return {
     breakpoints,
     isMobile,
