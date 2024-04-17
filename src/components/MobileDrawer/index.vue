@@ -43,7 +43,7 @@ onUnmounted(() => {
     </div>
     <div
       v-bind="$attrs"
-      class="fixed z-50 overflow-y-auto bg-white transition-all duration-200 dark:bg-#141414"
+      class="fixed z-50 overflow-y-auto bg-white transition-all duration-200 dark:bg-[#141414]"
       :class="[
         `duration-${duration}`,
         {
