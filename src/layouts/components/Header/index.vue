@@ -6,6 +6,7 @@ import BreadCrumb from './components/BreadCrumb.vue';
 import SearchMenu from './components/SearchMenu.vue';
 import Dark from './components/Dark.vue';
 import FullScreen from './components/FullScreen.vue';
+import ThemeSetting from './components/ThemeSetting.vue';
 import User from './components/User.vue';
 
 /** 监听窗口大小变化，进行是否显示 */
@@ -47,6 +48,8 @@ onBeforeUnmount(() => {
       <Dark />
       <!-- 全屏图标 -->
       <FullScreen />
+      <!-- 主题配置 -->
+      <ThemeSetting v-if="showTool" />
       <!-- 头像 AND 下拉折叠 -->
       <User />
     </div>
