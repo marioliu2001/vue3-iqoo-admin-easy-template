@@ -8,6 +8,7 @@ import Dark from './components/Dark.vue';
 import FullScreen from './components/FullScreen.vue';
 import ThemeSetting from './components/ThemeSetting.vue';
 import User from './components/User.vue';
+import Dimension from './components/Dimension.vue';
 
 /** 监听窗口大小变化，进行是否显示 */
 const showTool = ref(true); // 是否显示
@@ -44,6 +45,8 @@ onBeforeUnmount(() => {
     <div class="header-right">
       <!-- 搜索菜单 -->
       <SearchMenu v-if="showTool" />
+      <!-- ElementPlus 尺寸配置 -->
+      <Dimension v-if="showTool" />
       <!-- 明亮/暗黑模式图标 -->
       <Dark />
       <!-- 全屏图标 -->
